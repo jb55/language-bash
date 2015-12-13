@@ -1,6 +1,7 @@
 {-# LANGUAGE
     DeriveDataTypeable
   , FlexibleInstances
+  , CPP
   , OverloadedStrings
   , RecordWildCards
   , TypeSynonymInstances
