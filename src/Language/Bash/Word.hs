@@ -25,7 +25,7 @@ module Language.Bash.Word
     , unquote
     ) where
 
-#ifdef MIN_VERSION_base(4,6,0)
+#if __GLASGOW_HASKELL__ >= 784
 import Prelude hiding (Word)
 #endif
 
