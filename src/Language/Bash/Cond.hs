@@ -21,6 +21,8 @@ import Data.Typeable          (Typeable)
 import Text.Parsec            hiding ((<|>), token)
 import Text.Parsec.Expr       hiding (Operator)
 import Text.PrettyPrint       hiding (parens)
+import Data.Foldable (Foldable)
+import Data.Traversable (Traversable)
 
 import Language.Bash.Operator
 import Language.Bash.Pretty
